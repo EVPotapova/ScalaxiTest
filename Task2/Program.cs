@@ -1,4 +1,5 @@
 ﻿using System;
+using TestCore;
 
 namespace Task2
 {
@@ -41,7 +42,8 @@ namespace Task2
 
 
             Console.WriteLine($"Binet {bSum}");
-            Console.ReadLine();
+
+            MessageHelper.AnyKey();
         }
 
         private static int Fib(int position)

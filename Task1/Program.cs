@@ -30,7 +30,8 @@ namespace Task1
             Console.WriteLine(formatResult);
             Console.SetCursorPosition((Console.WindowWidth - interResult.Length) / 2, Console.CursorTop);
             Console.WriteLine(interResult);
-            Console.ReadKey();
+
+            MessageHelper.AnyKey();
         }
     }
 }

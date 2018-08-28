@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
+using TestCore;
 
 namespace Task3
 {
@@ -27,7 +28,7 @@ namespace Task3
             }
             finally
             {
-                Console.ReadKey();
+                MessageHelper.AnyKey();
             }
         }
     }
