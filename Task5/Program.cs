@@ -11,8 +11,6 @@ namespace Task5
         static void Main(string[] args)
         {
             var text = Console.ReadLine();
-
-
             char[] delimiters = new char[] { ' ', '.', ',', '!', '?' , '—' };
             var res = text.Split(delimiters, StringSplitOptions.RemoveEmptyEntries).Length;
             Console.WriteLine($"Count of words {res}");
