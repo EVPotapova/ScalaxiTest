@@ -16,7 +16,7 @@ namespace Task9
 
             if (!File.Exists(path))
             {
-                Console.WriteLine("Incorrect path");
+                Console.WriteLine("Incorrect path.");
                 MessageHelper.AnyKey();
                 return;
             }

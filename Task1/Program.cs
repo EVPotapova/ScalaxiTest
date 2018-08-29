@@ -15,8 +15,7 @@ namespace Task1
             const int nameMaxLength = 35;
             const int numberMaxLength = 3;
 
-
-            //TODO: Message
+            
             string name = Console.ReadLine().Truncate(nameMaxLength);
             string surname = Console.ReadLine().Truncate(nameMaxLength);
             string age = Console.ReadLine().Truncate(numberMaxLength);

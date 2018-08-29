@@ -9,7 +9,6 @@ namespace Task10
     {
         static void Main(string[] args)
         {
-            //TODO: TO Core
             string numberStr = Console.ReadLine();
             if (!int.TryParse(numberStr, out var number))
             {

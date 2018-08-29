@@ -16,7 +16,7 @@ namespace Task2
             var res = int.TryParse(positionStr, out int position);
             if (!res || position < 1)
             {
-                //TODO: Message
+                Console.WriteLine("Incorrect position.");
                 Console.ReadLine();
                 return;
             }

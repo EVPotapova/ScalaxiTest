@@ -11,8 +11,7 @@ namespace Task4
         {
             var expression = Console.ReadLine();
 
-            //Только баланс скобок.
-            //TODO: Проверить направления
+            //Только баланс скобок
             var regex = new Regex(@"^(?:[^()]|(?<counter>\()|(?<-counter>\)))+(?(counter)(?!))$", RegexOptions.IgnorePatternWhitespace);
 
             Console.WriteLine("Result: " + (regex.IsMatch(expression) ? "Correct" : "Incorrect"));

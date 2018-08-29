@@ -19,7 +19,6 @@ namespace Task8
             while (true)
             {
                 //Is number?
-                //TODO: Core try parse double
                 if (!double.TryParse(Console.ReadLine(), NumberStyles.Number, CultureInfo.InvariantCulture, out var number))
                 {
                     break;
